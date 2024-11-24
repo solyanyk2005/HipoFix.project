@@ -403,4 +403,9 @@ h2, h3 {
     color: #418f8c; /* Optional: Keep the color consistent */
     margin-bottom: 20px; /* Maintain spacing below each heading */
 }
+h1 {
+    font-size: 1.8rem; /* Increased font size for headings */
+    color: #292c2c; /* Optional: Keep the color consistent */
+    margin-bottom: 20px; /* Maintain spacing below each heading */
+}
 

@@ -38,6 +38,15 @@ function App() {
             alert('Failed to send message. Please try again.');
         });
     };
+    console.log (
+        {
+            from_name: formData.name,
+            from_email: formData.email,
+            message: formData.message,
+        },
+
+
+    )
 
     return (
         <>
@@ -48,7 +57,7 @@ function App() {
                 </section>
 
                 <section id="services" className="services">
-                    <h3>Our Services</h3>
+                    <h1>Our Services</h1>
                     <div className="service-card">
                         <h4>Phone Repair</h4>
                         <p>Screen replacements, battery upgrades, and more for all major brands.</p>
